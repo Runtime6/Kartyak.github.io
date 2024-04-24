@@ -1,112 +1,87 @@
 .container{
+    width: 1000px;
+    height: 450px;
     display: flex;
     justify-content: space-between;
-   
-}
-
-.card{
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset !important;
 }
 
 .card:hover{
-  background-color: white;
+    background-color: rgb(250, 253, 253);
 }
 
 .kicsi{
-  background-color: yellow;
-  margin: 10px;
-  margin-right: 180px;
-  text-align: center;
-  
-}
-
-.kicsiee{
-  background-color: yellow;
-  margin: 10px;
-  margin-right: 100px;
-  text-align: center;
-}
-
-.kicsieee{
-  background-color: yellow;
-  margin: 20px;
-  margin-right: 130px;
-  text-align: center;
-  
+    top: 180px;
+    background-color: yellow;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset !important;
     border-radius: 5px;
     padding: 20px;
     background-color: #fff;
     margin: 20px;
-  }
-  
-  .card img {
+}
+.card img {
     width: 100%;
     border-radius: 5px 5px 0 0;
-  }
-  
-  .card-text {
+}
+.card-text {
     text-align: center;
     padding: 10px;
-  }
-  
-  .card-text h2 {
+}
+.card-text h2 {
     font-size: 24px;
     margin-bottom: 10px;
-  }
-  
-  .card-text p {
+}
+.card-text p {
     font-size: 18px;
     margin-bottom: 20px;
-  }
-
-  .card-link{
+}
+.card-link{
     color: #000;
-  }
-  
-  .btn {
-    display: inline-block;
-    background-color: #000;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn:hover {
-    background-color: white;
-  }
-  
+}
+.card-body {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    z-index: 2;
+}
 
 a.button-54 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  letter-spacing: 2px;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #000;
-  cursor: pointer;
-  border: 0.5px solid;
-  padding: 0.25em 0.5em;
-  position: relative;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid #1A1A1A;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 0.75em;
+    min-width: 0;
+    outline: none;
+    padding: 0.5em 1.1em;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
 }
 
-a.button-54:active {
-  box-shadow: 0px 0px 0px 0px;
-  top: 5px;
-  left: 5px;
+a.button-54:disabled {
+    pointer-events: none;
 }
 
-@media (min-width: 768px) {
-  a.button-54 {
-    padding: 0.25em 0.75em;
-  }
+a.button-54:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
 }
