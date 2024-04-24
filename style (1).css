@@ -1,0 +1,112 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.card{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset !important;
+}
+
+.card:hover{
+  background-color: rgb(176, 240, 240);
+}
+
+.kicsi{
+  background-color: yellow;
+  margin: 10px;
+  margin-right: 180px;
+  text-align: center;
+  
+}
+
+.kicsiee{
+  background-color: yellow;
+  margin: 10px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+.kicsieee{
+  background-color: yellow;
+  margin: 20px;
+  margin-right: 130px;
+  text-align: center;
+  
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .card-text {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .card-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .card-link{
+    color: #000;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+  }
+  
+
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 0.5px solid;
+  padding: 0.25em 0.5em;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
